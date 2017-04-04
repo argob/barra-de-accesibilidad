@@ -1,0 +1,9 @@
+body{
+    /* Ejemplo para probar la funcionalidad en entorno de desarrollo */
+    background-color:#fafafa !important;
+}
+
+#accesibilidad-background {
+	/* Ejemplo para probar la funcionalidad en entorno de desarrollo */
+    border-bottom: 3px solid #bb7f9e;
+}

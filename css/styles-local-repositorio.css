@@ -1,0 +1,28 @@
+body {
+	margin: 0 !important;
+    font-family: 'Open sans';
+    font-size: 14px;
+}
+
+footer {
+	background-color: #335476;
+	padding:40px;
+}
+
+.footer-container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.footer-left {
+	float:left;
+	color:white;
+}
+
+.footer-right {
+	float:right;
+}
+
+footer a, footer a:hover {
+	color: white;
+}
