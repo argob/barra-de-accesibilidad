@@ -26,11 +26,11 @@ Para lograr este objetivo se implementó la definición de WAI Arias seg
 
 ### AUMENTO DE TAMAÑO
 
-Utilizando la herramienta de aumento de tamaño se consigue ampliar hasta en un 300% el tamaño textos, imágenes y elementos gráficos situados en la pantalla
+Utilizando la herramienta de aumento de tamaño se consigue ampliar hasta en un 300% el tamaño de textos, imágenes y elementos gráficos situados en la pantalla.
 
 ### ALTO CONTRASTE
 
-Esta utilidad permite que la paleta de colores del sitio se transforme y ofrezca únicamente combinaciones de alto contraste
+Esta utilidad permite que la paleta de colores del sitio se transforme y ofrezca únicamente combinaciones de alto contraste.
 
 ### TAMAÑO DEL PUNTERO
 
@@ -47,9 +47,9 @@ Antes de implementarla, es necesario:
 
 1. realizar un análisis de accesibilidad completo de la web y de su código,
 
-2. corregir y actualizar el código de la web acorde a los estándares WCAG 2.0 nivel A,en cuanto a regiones lógicas y configuración de cada sección.
+2. corregir y actualizar el código de la web acorde a los estándares WCAG 2.0 nivel A, en cuanto a regiones lógicas y configuración de cada sección.
 
-3. generar y actualizar los archivos de estilos (CSS) para permitir el cambio entre "Color original" y "Alto contraste"
+3. generar y actualizar los archivos de estilos (CSS) para permitir el cambio entre "Color original" y "Alto contraste",
 
 4. actualizar el código de la web con las etiquetas correspondientes para poder:
     * recibir el "Saltar al contenido principal", "Saltar a Navegación" y "Volver arriba"
@@ -94,11 +94,11 @@ En este ejemplo, este div con el id indicado, debe "envolver" todo el cont
 
 Con esto quedarán 3 CSS. El original y los dos nuevos que se generan. El original se llama y se mantiene siempre activo, y además de él, se alternará luego entre "color original" y "color de alto contraste" para que aporten la información de color que corresponda.
 
-a. *"styles.css"* (por ejemplo) este es el css original, pero sin información de color
+a. *"styles.css"* (por ejemplo) este es el css original, pero sin información de color.
 
 b. *"overrides-color-original.css"* se construye con toda la información de color y background images quitadas de la hoja de estilos original.
 
-c. *"overrides-alto-contraste.css"* se construye reemplazando los colores originales por colores que representen "alto contraste". Se chequean los contrastes con herramientas de Accesibilidad online por ejemplo 
+c. *"overrides-alto-contraste.css"* se construye reemplazando los colores originales por colores que representen "alto contraste". Se chequean los contrastes con herramientas de Accesibilidad online, por ejemplo: 
 
 Llamada al CSS de color original:
 ```HTML
